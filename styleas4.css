@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body
+{
+  background-image: url(https://wallpaperaccess.com/full/1225736.jpg);
+  background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+
+ height:100vh;
+ font-family: poppins;
+ font-weight: 600;
+ font-size: 16px;
+}
+a{
+    text-decoration:none;
+}
+header
+{
+
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 1%;
+    padding-right: 2%;
+}
+
+.nav-area
+{
+    list-style: none;
+}
+.nav-area li{
+    display: inline-block;
+    padding:0 15px;
+    text-transform: uppercase;
+}
+.nav-area li a{
+    transform: .3s ;
+    color: silver;
+}
+.nav-area li a:hover{
+    color: red;
+}
+/*logo*/
+.logo
+{
+    cursor: pointer;
+    
+}
+.logo img{
+  height: 30px;
+  width: auto;
+}
+
+/* box-container-*/
+.main{
+    margin-top: 2%;
+    align-items: center ;
+   }
+   
+   .card{
+        width: 27%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px; 
+        margin: 2%;
+       }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+   
+    
+    }
+   
+   .title{
+    
+     text-align: center;
+     padding: 10px;
+     background-color:rgb(0, 110, 255);
+     color:rgb(0, 0, 0);
+     
+    }
+   
+   h1{
+     font-size: 20px;
+     font-weight: 800;
+     font-family: 'Mate SC', serif;
+    }
+   
+   .des{
+     padding: 3px;
+     text-align: center;
+     background-color: rgb(0, 0, 0);
+     color: silver;
+    
+     padding-top: 10px;
+           border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   button{
+     margin-top: 40px;
+     margin-bottom: 10px;
+     width: 100%;
+     background-color: rgb(32, 253, 32);
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+   }
+   button:hover{
+     background-color: rgb(35, 119, 2);
+     color: rgb(230, 230, 230);
+     transition: .5s;
+     cursor: pointer;
+   }
